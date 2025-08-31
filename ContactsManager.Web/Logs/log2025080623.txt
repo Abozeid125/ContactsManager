@@ -1,0 +1,268 @@
+2025-08-06 23:00:12.815 +03:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-06 23:00:13.182 +03:00 [INF] Now listening on: http://localhost:5239
+2025-08-06 23:00:13.385 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-06 23:00:13.390 +03:00 [INF] Hosting environment: Development
+2025-08-06 23:00:13.395 +03:00 [INF] Content root path: D:\aspdotnetcore\ContactsManager.Web\ContactsManager.Web
+2025-08-06 23:00:15.095 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/ - null null
+2025-08-06 23:00:15.311 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:00:15.491 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:00:16.122 +03:00 [INF] Person Index method Filter onexecuting
+2025-08-06 23:00:18.691 +03:00 [INF] Executed DbCommand (90ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+2025-08-06 23:00:18.958 +03:00 [INF] Person Index method Filter on executed
+2025-08-06 23:00:18.978 +03:00 [INF] Executing ViewResult, running view Index.
+2025-08-06 23:00:19.382 +03:00 [INF] Executed ViewResult - view Index executed in 405.1019ms.
+2025-08-06 23:00:19.394 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:00:19.395 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Index (ContactsManager.UI) in 3888.4952ms
+2025-08-06 23:00:19.405 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:00:19.411 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:00:19.412 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 18.5684ms
+2025-08-06 23:00:19.458 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/ - 200 null text/html; charset=utf-8 4378.9994ms
+2025-08-06 23:00:19.476 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.2209ms
+2025-08-06 23:00:25.313 +03:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-06 23:00:25.424 +03:00 [INF] Now listening on: http://localhost:5239
+2025-08-06 23:00:25.491 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-06 23:00:25.493 +03:00 [INF] Hosting environment: Development
+2025-08-06 23:00:25.494 +03:00 [INF] Content root path: D:\aspdotnetcore\ContactsManager.Web\ContactsManager.Web
+2025-08-06 23:00:26.000 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/ - null null
+2025-08-06 23:00:26.110 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:00:26.160 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:00:26.484 +03:00 [INF] Person Index method Filter onexecuting
+2025-08-06 23:00:27.819 +03:00 [INF] Executed DbCommand (57ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+2025-08-06 23:00:27.939 +03:00 [INF] Person Index method Filter on executed
+2025-08-06 23:00:27.950 +03:00 [INF] Executing ViewResult, running view Index.
+2025-08-06 23:00:28.157 +03:00 [INF] Executed ViewResult - view Index executed in 207.5454ms.
+2025-08-06 23:00:28.162 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Index (ContactsManager.UI) in 1994.1406ms
+2025-08-06 23:00:28.163 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:00:28.166 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:00:28.168 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:00:28.171 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.0559ms
+2025-08-06 23:00:28.180 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/ - 200 null text/html; charset=utf-8 2183.005ms
+2025-08-06 23:00:28.200 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 32.1832ms
+2025-08-06 23:00:34.641 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/persons/Index?searchBy=Email&searchString=a&searchBy=Name&searchString= - null null
+2025-08-06 23:00:34.657 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:00:34.668 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:00:34.687 +03:00 [INF] Person Index method Filter onexecuting
+2025-08-06 23:00:34.691 +03:00 [INF] actual searchby value = Email
+2025-08-06 23:00:35.036 +03:00 [INF] Executed DbCommand (191ms) [Parameters=[@__Value_0_contains='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+WHERE [p].[Email] LIKE @__Value_0_contains ESCAPE N'\'
+2025-08-06 23:00:35.070 +03:00 [INF] Person Index method Filter on executed
+2025-08-06 23:00:35.077 +03:00 [INF] Executing ViewResult, running view Index.
+2025-08-06 23:00:35.143 +03:00 [INF] Executed ViewResult - view Index executed in 65.7368ms.
+2025-08-06 23:00:35.151 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Index (ContactsManager.UI) in 477.0765ms
+2025-08-06 23:00:35.159 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:00:35.168 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:00:35.168 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:00:35.170 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/persons/Index?searchBy=Email&searchString=a&searchBy=Name&searchString= - 200 null text/html; charset=utf-8 529.2261ms
+2025-08-06 23:00:35.184 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 16.4365ms
+2025-08-06 23:00:35.229 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.3525ms
+2025-08-06 23:00:44.007 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/persons/Index?searchBy=Name&searchString=ahmed&searchBy=Email&searchString=a - null null
+2025-08-06 23:00:44.017 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:00:44.020 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:00:44.036 +03:00 [INF] Person Index method Filter onexecuting
+2025-08-06 23:00:44.041 +03:00 [INF] actual searchby value = Name
+2025-08-06 23:00:44.218 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__Value_0_contains='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+WHERE [p].[Name] LIKE @__Value_0_contains ESCAPE N'\'
+2025-08-06 23:00:44.229 +03:00 [INF] Person Index method Filter on executed
+2025-08-06 23:00:44.230 +03:00 [INF] Executing ViewResult, running view Index.
+2025-08-06 23:00:44.235 +03:00 [INF] Executed ViewResult - view Index executed in 4.3619ms.
+2025-08-06 23:00:44.239 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Index (ContactsManager.UI) in 213.0606ms
+2025-08-06 23:00:44.243 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:00:44.243 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:00:44.243 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:00:44.245 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/persons/Index?searchBy=Name&searchString=ahmed&searchBy=Email&searchString=a - 200 null text/html; charset=utf-8 237.9696ms
+2025-08-06 23:00:44.250 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 7.117ms
+2025-08-06 23:00:44.252 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 8.6041ms
+2025-08-06 23:00:58.244 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/persons/Create - null null
+2025-08-06 23:00:58.270 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Create (ContactsManager.UI)'
+2025-08-06 23:00:58.288 +03:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create() on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:00:58.333 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Guid], [c].[CountryName]
+FROM [Countries] AS [c]
+2025-08-06 23:00:58.378 +03:00 [INF] Executing ViewResult, running view Create.
+2025-08-06 23:00:58.559 +03:00 [INF] Executed ViewResult - view Create executed in 182.4901ms.
+2025-08-06 23:00:58.570 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Create (ContactsManager.UI) in 264.0561ms
+2025-08-06 23:00:58.579 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:00:58.580 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Create (ContactsManager.UI)'
+2025-08-06 23:00:58.595 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:00:58.598 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 19.4821ms
+2025-08-06 23:00:58.607 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/persons/Create - 200 null text/html; charset=utf-8 363.3125ms
+2025-08-06 23:00:58.634 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.8445ms
+2025-08-06 23:00:58.704 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/jquery.validate.unobtrusive.min.js - null null
+2025-08-06 23:00:58.866 +03:00 [INF] Sending file. Request path: '/jquery.validate.unobtrusive.min.js'. Physical path: 'D:\aspdotnetcore\ContactsManager.Web\ContactsManager.Web\wwwroot\jquery.validate.unobtrusive.min.js'
+2025-08-06 23:00:58.873 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/jquery.validate.unobtrusive.min.js - 200 5831 text/javascript 169.8273ms
+2025-08-06 23:01:27.042 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/persons/Create - application/x-www-form-urlencoded 378
+2025-08-06 23:01:27.064 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Create (ContactsManager.UI)'
+2025-08-06 23:01:27.089 +03:00 [INF] Route matched with {action = "Create", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Create(ServiceContracts.DTOS.PersonAddRequest) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:01:27.393 +03:00 [INF] Executed DbCommand (34ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 50), @p2='?' (DbType = Guid), @p3='?' (DbType = DateTime2), @p4='?' (Size = 50), @p5='?' (Size = 10), @p6='?' (Size = 50), @p7='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Persons] ([PersonId], [Address], [CountryId], [DateOfBirth], [Email], [Gender], [Name], [ReceiveNewsLetters])
+OUTPUT INSERTED.[TaxIdentificationNumber]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2025-08-06 23:01:27.461 +03:00 [INF] Executing RedirectResult, redirecting to /persons/Index.
+2025-08-06 23:01:27.470 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Create (ContactsManager.UI) in 358.9322ms
+2025-08-06 23:01:27.479 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Create (ContactsManager.UI)'
+2025-08-06 23:01:27.486 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/persons/Create - 302 0 null 444.0941ms
+2025-08-06 23:01:27.505 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/persons/Index - null null
+2025-08-06 23:01:27.526 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:01:27.534 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:01:27.549 +03:00 [INF] Person Index method Filter onexecuting
+2025-08-06 23:01:27.565 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+2025-08-06 23:01:27.585 +03:00 [INF] Person Index method Filter on executed
+2025-08-06 23:01:27.592 +03:00 [INF] Executing ViewResult, running view Index.
+2025-08-06 23:01:27.604 +03:00 [INF] Executed ViewResult - view Index executed in 12.1384ms.
+2025-08-06 23:01:27.613 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Index (ContactsManager.UI) in 65.0939ms
+2025-08-06 23:01:27.623 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:01:27.623 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:01:27.623 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:01:27.631 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/persons/Index - 200 null text/html; charset=utf-8 125.2815ms
+2025-08-06 23:01:27.644 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 21.1276ms
+2025-08-06 23:01:27.657 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 33.7681ms
+2025-08-06 23:01:32.936 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/persons/Edit/76dcafe7-136a-460e-a58f-b028a4f33042 - null null
+2025-08-06 23:01:32.975 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Edit (ContactsManager.UI)'
+2025-08-06 23:01:32.995 +03:00 [INF] Route matched with {action = "Edit", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(System.Nullable`1[System.Guid]) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:01:33.116 +03:00 [INF] Executed DbCommand (8ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+WHERE [p].[PersonId] = @__id_0
+2025-08-06 23:01:33.155 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[Guid], [c].[CountryName]
+FROM [Countries] AS [c]
+2025-08-06 23:01:33.183 +03:00 [INF] Executing ViewResult, running view Edit.
+2025-08-06 23:01:33.302 +03:00 [INF] Executed ViewResult - view Edit executed in 120.2574ms.
+2025-08-06 23:01:33.312 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Edit (ContactsManager.UI) in 294.8291ms
+2025-08-06 23:01:33.322 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Edit (ContactsManager.UI)'
+2025-08-06 23:01:33.322 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:01:33.323 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:01:33.331 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/persons/Edit/76dcafe7-136a-460e-a58f-b028a4f33042 - 200 null text/html; charset=utf-8 394.3723ms
+2025-08-06 23:01:33.349 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 26.9529ms
+2025-08-06 23:01:33.377 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.1524ms
+2025-08-06 23:01:38.728 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/persons/Edit/76dcafe7-136a-460e-a58f-b028a4f33042 - application/x-www-form-urlencoded 412
+2025-08-06 23:01:38.751 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Edit (ContactsManager.UI)'
+2025-08-06 23:01:38.779 +03:00 [INF] Route matched with {action = "Edit", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Edit(ServiceContracts.DTOS.PersonUpdateRequest) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:01:38.812 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+WHERE [p].[PersonId] = @__id_0
+2025-08-06 23:01:38.852 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+WHERE [p].[PersonId] = @__id_0
+2025-08-06 23:01:38.910 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@__person_PersonId_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+WHERE [p].[PersonId] = @__person_PersonId_0
+2025-08-06 23:01:38.977 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[@p1='?' (DbType = Guid), @p0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [Persons] SET [Address] = @p0
+OUTPUT 1
+WHERE [PersonId] = @p1;
+2025-08-06 23:01:38.998 +03:00 [INF] Executing ViewResult, running view Edit.
+2025-08-06 23:01:39.020 +03:00 [INF] Executed ViewResult - view Edit executed in 22.135ms.
+2025-08-06 23:01:39.030 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Edit (ContactsManager.UI) in 232.369ms
+2025-08-06 23:01:39.038 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:01:39.038 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:01:39.041 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Edit (ContactsManager.UI)'
+2025-08-06 23:01:39.059 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 20.6426ms
+2025-08-06 23:01:39.080 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.7007ms
+2025-08-06 23:01:39.082 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/persons/Edit/76dcafe7-136a-460e-a58f-b028a4f33042 - 200 null text/html; charset=utf-8 354.0303ms
+2025-08-06 23:01:42.004 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/persons/Index - null null
+2025-08-06 23:01:42.023 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:01:42.027 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:01:42.032 +03:00 [INF] Person Index method Filter onexecuting
+2025-08-06 23:01:42.036 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+2025-08-06 23:01:42.042 +03:00 [INF] Person Index method Filter on executed
+2025-08-06 23:01:42.043 +03:00 [INF] Executing ViewResult, running view Index.
+2025-08-06 23:01:42.046 +03:00 [INF] Executed ViewResult - view Index executed in 3.062ms.
+2025-08-06 23:01:42.049 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Index (ContactsManager.UI) in 16.9275ms
+2025-08-06 23:01:42.051 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:01:42.055 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/persons/Index - 200 null text/html; charset=utf-8 50.8419ms
+2025-08-06 23:01:42.055 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:01:42.055 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:01:42.064 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 9.2386ms
+2025-08-06 23:01:42.071 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.2828ms
+2025-08-06 23:01:50.804 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/persons/Delete/76dcafe7-136a-460e-a58f-b028a4f33042 - null null
+2025-08-06 23:01:50.831 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Delete (ContactsManager.UI)'
+2025-08-06 23:01:50.850 +03:00 [INF] Route matched with {action = "Delete", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(System.Nullable`1[System.Guid]) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:01:50.879 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+WHERE [p].[PersonId] = @__id_0
+2025-08-06 23:01:50.930 +03:00 [INF] Executing ViewResult, running view Delete.
+2025-08-06 23:01:50.994 +03:00 [INF] Executed ViewResult - view Delete executed in 66.0859ms.
+2025-08-06 23:01:51.002 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Delete (ContactsManager.UI) in 129.1353ms
+2025-08-06 23:01:51.011 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Delete (ContactsManager.UI)'
+2025-08-06 23:01:51.011 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:01:51.012 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:01:51.019 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/persons/Delete/76dcafe7-136a-460e-a58f-b028a4f33042 - 200 null text/html; charset=utf-8 214.4482ms
+2025-08-06 23:01:51.032 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 20.6365ms
+2025-08-06 23:01:51.040 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 27.9207ms
+2025-08-06 23:01:52.911 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5239/persons/Delete/76dcafe7-136a-460e-a58f-b028a4f33042 - application/x-www-form-urlencoded 228
+2025-08-06 23:01:52.948 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Delete (ContactsManager.UI)'
+2025-08-06 23:01:52.967 +03:00 [INF] Route matched with {action = "Delete", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Delete(ServiceContracts.DTOS.PersonResponse) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:01:52.999 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+WHERE [p].[PersonId] = @__id_0
+2025-08-06 23:01:53.026 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+WHERE [p].[PersonId] = @__id_0
+2025-08-06 23:01:53.088 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[@__id_0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber]
+FROM [Persons] AS [p]
+WHERE [p].[PersonId] = @__id_0
+2025-08-06 23:01:53.158 +03:00 [INF] Executed DbCommand (30ms) [Parameters=[@p0='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+DELETE FROM [Persons]
+OUTPUT 1
+WHERE [PersonId] = @p0;
+2025-08-06 23:01:53.190 +03:00 [INF] Executing RedirectResult, redirecting to /persons/Index.
+2025-08-06 23:01:53.199 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Delete (ContactsManager.UI) in 207.6633ms
+2025-08-06 23:01:53.208 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Delete (ContactsManager.UI)'
+2025-08-06 23:01:53.217 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5239/persons/Delete/76dcafe7-136a-460e-a58f-b028a4f33042 - 302 0 null 305.448ms
+2025-08-06 23:01:53.244 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/persons/Index - null null
+2025-08-06 23:01:53.266 +03:00 [INF] Executing endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:01:53.276 +03:00 [INF] Route matched with {action = "Index", controller = "Person"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDexample.Controllers.PersonController (ContactsManager.UI).
+2025-08-06 23:01:53.294 +03:00 [INF] Person Index method Filter onexecuting
+2025-08-06 23:01:53.304 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonId], [p].[Address], [p].[CountryId], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[Name], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[Guid], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryId] = [c].[Guid]
+2025-08-06 23:01:53.322 +03:00 [INF] Person Index method Filter on executed
+2025-08-06 23:01:53.328 +03:00 [INF] Executing ViewResult, running view Index.
+2025-08-06 23:01:53.339 +03:00 [INF] Executed ViewResult - view Index executed in 11.1158ms.
+2025-08-06 23:01:53.351 +03:00 [INF] Executed action CRUDexample.Controllers.PersonController.Index (ContactsManager.UI) in 56.8946ms
+2025-08-06 23:01:53.358 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-06 23:01:53.358 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5239/_vs/browserLink - null null
+2025-08-06 23:01:53.361 +03:00 [INF] Executed endpoint 'CRUDexample.Controllers.PersonController.Index (ContactsManager.UI)'
+2025-08-06 23:01:53.377 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 18.9146ms
+2025-08-06 23:01:53.397 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.3519ms
+2025-08-06 23:01:53.401 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5239/persons/Index - 200 null text/html; charset=utf-8 157.4157ms

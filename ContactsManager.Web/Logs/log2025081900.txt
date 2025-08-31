@@ -1,0 +1,61 @@
+2025-08-19 00:59:47.839 +03:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-08-19 00:59:48.057 +03:00 [INF] Now listening on: https://localhost:5239
+2025-08-19 00:59:48.132 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-08-19 00:59:48.135 +03:00 [INF] Hosting environment: Development
+2025-08-19 00:59:48.136 +03:00 [INF] Content root path: D:\aspdotnetcore\ContactsManager.Web\ContactsManager.Web
+2025-08-19 00:59:49.074 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5239/ - null null
+2025-08-19 00:59:49.248 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-19 00:59:49.277 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-08-19 00:59:49.297 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5239/ - 302 0 null 222.7143ms
+2025-08-19 00:59:49.313 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5239/account/login?ReturnUrl=%2F - null null
+2025-08-19 00:59:49.364 +03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2025-08-19 00:59:49.455 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2025-08-19 00:59:50.646 +03:00 [INF] Executing ViewResult, running view Login.
+2025-08-19 00:59:50.918 +03:00 [INF] Executed ViewResult - view Login executed in 278.9903ms.
+2025-08-19 00:59:50.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5239/Stylesheet.css - null null
+2025-08-19 00:59:50.920 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5239/_framework/aspnetcore-browser-refresh.js - null null
+2025-08-19 00:59:50.924 +03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 1451.8373ms
+2025-08-19 00:59:50.926 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5239/_vs/browserLink - null null
+2025-08-19 00:59:50.937 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-19 00:59:50.949 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5239/_framework/aspnetcore-browser-refresh.js - 200 13772 application/javascript; charset=utf-8 28.2778ms
+2025-08-19 00:59:50.950 +03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2025-08-19 00:59:50.962 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-08-19 00:59:50.972 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5239/Stylesheet.css - 302 0 null 52.3051ms
+2025-08-19 00:59:50.974 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5239/account/login?ReturnUrl=%2FStylesheet.css - null null
+2025-08-19 00:59:50.974 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5239/account/login?ReturnUrl=%2F - 200 null text/html; charset=utf-8 1663.0821ms
+2025-08-19 00:59:50.992 +03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2025-08-19 00:59:51.009 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5239/_vs/browserLink - 200 null text/javascript; charset=UTF-8 82.5126ms
+2025-08-19 00:59:51.011 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2025-08-19 00:59:51.036 +03:00 [INF] Executing ViewResult, running view Login.
+2025-08-19 00:59:51.046 +03:00 [INF] Executed ViewResult - view Login executed in 10.0768ms.
+2025-08-19 00:59:51.051 +03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 24.2152ms
+2025-08-19 00:59:51.055 +03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2025-08-19 00:59:51.057 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5239/account/login?ReturnUrl=%2FStylesheet.css - 200 null text/html; charset=utf-8 82.563ms
+2025-08-19 00:59:51.514 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5239/jquery.validate.unobtrusive.min.js - null null
+2025-08-19 00:59:51.525 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-19 00:59:51.530 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-08-19 00:59:51.533 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5239/jquery.validate.unobtrusive.min.js - 302 0 null 18.7809ms
+2025-08-19 00:59:51.535 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5239/account/login?ReturnUrl=%2Fjquery.validate.unobtrusive.min.js - null null
+2025-08-19 00:59:51.558 +03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2025-08-19 00:59:51.565 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2025-08-19 00:59:51.600 +03:00 [INF] Executing ViewResult, running view Login.
+2025-08-19 00:59:51.607 +03:00 [INF] Executed ViewResult - view Login executed in 7.2746ms.
+2025-08-19 00:59:51.611 +03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 28.7331ms
+2025-08-19 00:59:51.620 +03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2025-08-19 00:59:51.625 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5239/account/login?ReturnUrl=%2Fjquery.validate.unobtrusive.min.js - 200 null text/html; charset=utf-8 89.8551ms
+2025-08-19 00:59:51.794 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5239/favicon.ico - null null
+2025-08-19 00:59:51.808 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-08-19 00:59:51.816 +03:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2025-08-19 00:59:51.824 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5239/favicon.ico - 302 0 null 29.9543ms
+2025-08-19 00:59:51.827 +03:00 [INF] Request starting HTTP/2 GET https://localhost:5239/account/login?ReturnUrl=%2Ffavicon.ico - null null
+2025-08-19 00:59:51.838 +03:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2025-08-19 00:59:51.843 +03:00 [INF] Route matched with {action = "Login", controller = "Account"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2025-08-19 00:59:51.853 +03:00 [INF] Executing ViewResult, running view Login.
+2025-08-19 00:59:51.863 +03:00 [INF] Executed ViewResult - view Login executed in 10.0481ms.
+2025-08-19 00:59:51.869 +03:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 16.3061ms
+2025-08-19 00:59:51.875 +03:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2025-08-19 00:59:51.881 +03:00 [INF] Request finished HTTP/2 GET https://localhost:5239/account/login?ReturnUrl=%2Ffavicon.ico - 200 null text/html; charset=utf-8 54.285ms

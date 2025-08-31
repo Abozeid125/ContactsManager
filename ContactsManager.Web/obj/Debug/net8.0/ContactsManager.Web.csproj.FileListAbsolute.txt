@@ -1,0 +1,6 @@
+D:\aspdotnetcore\ContactsManager.Web\ContactsManager.Web\obj\Debug\net8.0\ContactsManager.Web.csproj.AssemblyReference.cache
+D:\aspdotnetcore\ContactsManager.Web\ContactsManager.Web\obj\Debug\net8.0\ContactsManager.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\aspdotnetcore\ContactsManager.Web\ContactsManager.Web\obj\Debug\net8.0\ContactsManager.Web.AssemblyInfoInputs.cache
+D:\aspdotnetcore\ContactsManager.Web\ContactsManager.Web\obj\Debug\net8.0\ContactsManager.Web.AssemblyInfo.cs
+D:\aspdotnetcore\ContactsManager.Web\ContactsManager.Web\obj\Debug\net8.0\ContactsManager.Web.csproj.CoreCompileInputs.cache
+D:\aspdotnetcore\ContactsManager.Web\ContactsManager.Web\obj\Debug\net8.0\ContactsManager.Web.MvcApplicationPartsAssemblyInfo.cache
